@@ -1,24 +1,28 @@
 {
-  "name": "pms_parser",
-  "version": "0.0.1",
-  "description": "parses wiki project management comparison page into readable structure",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "keywords": [
-    "project",
-    "management",
-    "comparison"
-  ],
-  "author": "rcmonitor",
-  "license": "ISC",
-  "dependencies": {
-    "mongodb": "~2.0.0",
-	"amqp": "~0.2.0"
-  },
-  "devDependencies": {
-    "chai": "~1.10.0",
-    "mocha": "~2.1.0"
-  }
+	"name": "pms_parser",
+	"version": "0.0.1",
+	"description": "parses wiki project management comparison page into readable structure",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rcmonitor/pms_downloader_emitter.git"
+	},
+	"keywords": [
+		"project",
+		"management",
+		"comparison"
+	],
+	"author": "rcmonitor",
+	"license": "ISC",
+	"dependencies": {
+		"mongodb": "~2.0.0",
+		"amqp": "~0.2.0"
+	},
+	"devDependencies": {
+		"chai": "~1.10.0",
+		"mocha": "~2.1.0"
+	}
 }
