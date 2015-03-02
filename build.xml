@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+
+<project name="pms_parser_downloader" basedir="." default="test">
+
+
+	<target name="install">
+		<echo message="installing app via npm" />
+		<exec executable="npm">
+			<arg value="install" />
+		</exec>
+	</target>
+
+	<target name="test">
+		<exec executable="mocha">
+
+		</exec>
+	</target>
+</project>
