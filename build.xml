@@ -5,13 +5,13 @@
 
 	<target name="install">
 		<echo message="installing app via npm" />
-		<exec executable="npm">
+		<exec executable="npm" failonerror="true">
 			<arg value="install" />
 		</exec>
 	</target>
 
 	<target name="test">
-		<exec executable="mocha">
+		<exec executable="mocha" failonerror="true">
 
 		</exec>
 	</target>
