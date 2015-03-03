@@ -10,7 +10,7 @@
 		</exec>
 	</target>
 
-	<target name="test">
+	<target name="test" depends="install">
 		<exec executable="mocha" failonerror="true">
 
 		</exec>
